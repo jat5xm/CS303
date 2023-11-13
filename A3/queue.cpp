@@ -1,6 +1,7 @@
 #include "queue.h"
 
 int main() {
+  
   myQueue newQueue;
 
   newQueue.enqueue(1);
@@ -15,4 +16,5 @@ int main() {
   cout << "Number of elements in the queue: " << newQueue.size() << endl;
 
   return 0;
+  
 }
